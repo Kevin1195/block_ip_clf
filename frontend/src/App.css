@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Đảm bảo rằng kích thước của các phần tử tính cả padding và border */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Kế thừa màu văn bản từ phần tử cha */
+}
+
+.App {
+  max-width: 520px;
+  min-height: 100vh;
+  user-select: none;
+  font-size: inherit;
+  margin: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei,
+    Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體,
+    Microsoft JhengHei UI, Microsoft JhengHei, sans-serif; */
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+}
+
+.Loading {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+}

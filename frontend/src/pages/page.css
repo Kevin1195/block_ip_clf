@@ -1,0 +1,60 @@
+.bg-login {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.14058123249299714) 24%,
+    rgba(0, 57, 69, 1) 100%
+  );
+  box-shadow: 1px 0 1px #ccc, -1px 0 1px #ccc;
+  padding: 4rem 1rem;
+  height: 100vh;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 24px;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.wrap-input {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.inputform {
+  margin: 10px 0 10px 10px;
+  width: 100%;
+  color: #007bff;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #007bff;
+  box-shadow: 1px 1px 4px #add8e6, -1px -1px 4px #add8e6, 1px -1px 4px #add8e6,
+    -1px 1px 4px #add8e6;
+  padding: 4px;
+}
+
+.inputform::placeholder {
+  color: white;
+}
+
+.inputform:focus {
+  border: 1px solid #007bff;
+  box-shadow: 1px 1px 4px #add8e6, -1px -1px 4px #add8e6;
+}
+
+.btn_submit {
+  margin-top: 20px;
+  background: #007bff;
+  width: 100%;
+  text-align: center;
+  padding: 5px 4px;
+  border-radius: 5px;
+  color: white;
+}
