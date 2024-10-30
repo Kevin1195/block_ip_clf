@@ -50,7 +50,7 @@ const AddItemInWhiteIP = async ({ ip }) => {
     try {
         const dataCLF = await axios
             .post(
-                'https://api.cloudflare.com/client/v4/accounts/d48a7afb7f7f8f861a2c59427657a607/rules/lists/c0813dd49bd7440987dcd9f90b75cbf1/items',
+                'https://api.cloudflare.com/client/v4/accounts/d48a7afb7f7f8f861a2c59427657a607/rules/lists/fa1ffd482b8840388278e49b7d05d8bd/items',
                 [
                     {
                         ip,
